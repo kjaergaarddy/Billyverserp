@@ -1,0 +1,12 @@
+{
+  "visao_aprimorada":    {"nome": "Visão aprimorada", "mods": {"esquiva": 1}},
+  "inteligencia_aprimorada": {"nome": "Inteligência aprimorada", "mods": {}},
+  "resistencia_frio":    {"nome": "Resistência a frio", "resist": {"gelo": 2}},
+  "resistencia_hipnose": {"nome": "Resistência a hipnose", "resist": {"hipnose": 2}},
+  "resistencia_fogo":    {"nome": "Resistência a fogo", "resist": {"fogo": 2}},
+  "resistencia_planta":  {"nome": "Resistência a planta", "resist": {"planta": 2}},
+  "camuflagem":          {"nome": "Camuflagem", "mods": {"esquiva": 2}},
+  "conhecimento_inato":  {"nome": "Conhecimento inato", "mana_turnos": 2},
+  "armadura_corporal":   {"nome": "Armadura corporal", "mods": {"esquiva": 2, "bloqueio": 2}},
+  "inteligencia_suprema": {"nome": "Inteligência suprema", "mods": {"ataque": 2, "esquiva": 2, "bloqueio": 2}}
+}

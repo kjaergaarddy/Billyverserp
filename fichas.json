@@ -1,0 +1,15 @@
+{
+  "COLOQUE_AQUI_O_ID_DO_DISCORD_DO_JOGADOR": {
+    "nome": "Hunter",
+    "familia": "Hunter",
+    "raca": "Billyno",
+    "org": "billy_spaces",
+    "org_rank": 0,
+    "party": "Brasa",
+    "stats": {"forca": 900, "resistencia": 700, "velocidade": 820, "mira": 300, "mana": 400, "poder": 300},
+    "tecnicas": ["ataque_basico", "katana_chamas"],
+    "passivas": ["camuflagem"],
+    "ativos": [],
+    "aparencia_id": null
+  }
+}

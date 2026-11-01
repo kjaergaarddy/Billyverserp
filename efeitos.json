@@ -1,0 +1,10 @@
+{
+  "queimadura":   {"nome": "Queimadura",   "emoji": "🔥", "tick_pct": 0.05, "mods": {}},
+  "sangramento":  {"nome": "Sangramento",  "emoji": "🩸", "tick_pct": 0.04, "mods": {}},
+  "lentidao":     {"nome": "Lentidão",     "emoji": "🐌", "mods": {"esquiva": -2, "movimento": -2}},
+  "preso":        {"nome": "Preso",        "emoji": "🌿", "mods": {"esquiva": -4, "movimento": -99}},
+  "hipnotizado":  {"nome": "Hipnotizado",  "emoji": "🌀", "pula_turno": true, "mods": {}},
+  "atordoado":    {"nome": "Atordoado",    "emoji": "💫", "pula_turno": true, "mods": {}},
+  "determinacao": {"nome": "Determinação", "emoji": "✨", "mods": {"ataque": 3, "esquiva": -3}},
+  "barreira":     {"nome": "Barreira",     "emoji": "🛡️", "mods": {"esquiva": 3, "bloqueio": 3}}
+}

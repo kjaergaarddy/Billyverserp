@@ -1,0 +1,65 @@
+{
+  "ataque_basico": {
+    "nome": "Ataque básico", "tipo": "melee", "escala": "forca", "coef": 0.05,
+    "dano_base": 10, "custo_mana": 0, "recarga": 0, "elemento": "fisico",
+    "desc": "Golpe simples com arma ou punho."
+  },
+  "tiro_certeiro": {
+    "nome": "Tiro certeiro", "tipo": "arma", "escala": "mira", "coef": 0.06,
+    "dano_base": 14, "custo_mana": 0, "recarga": 1, "elemento": "fisico",
+    "desc": "Disparo preciso da arma equipada."
+  },
+  "katana_chamas": {
+    "nome": "Katana em chamas", "tipo": "melee", "escala": "forca", "coef": 0.06,
+    "dano_base": 20, "custo_mana": 1, "recarga": 1, "elemento": "fogo",
+    "bonus_ataque": 2,
+    "efeitos": [{"id": "queimadura", "chance": 0.35, "turnos": 3}],
+    "desc": "Lâmina flamejante. +2 no roll de ataque, chance de queimar."
+  },
+  "bola_de_fogo": {
+    "nome": "Bola de fogo", "tipo": "range", "escala": "poder", "coef": 0.07,
+    "dano_base": 22, "custo_mana": 1, "recarga": 1, "elemento": "fogo",
+    "area": 1,
+    "efeitos": [{"id": "queimadura", "chance": 0.40, "turnos": 3}],
+    "desc": "Explosão de fogo que atinge o alvo e quem estiver colado nele."
+  },
+  "lanca_de_gelo": {
+    "nome": "Lança de gelo", "tipo": "range", "escala": "poder", "coef": 0.07,
+    "dano_base": 18, "custo_mana": 1, "recarga": 1, "elemento": "gelo",
+    "efeitos": [{"id": "lentidao", "chance": 0.50, "turnos": 2}],
+    "desc": "Projétil de gelo que pode deixar o alvo lento."
+  },
+  "lamina_de_vento": {
+    "nome": "Lâmina de vento", "tipo": "range", "escala": "poder", "coef": 0.06,
+    "dano_base": 16, "custo_mana": 1, "recarga": 0, "elemento": "vento",
+    "efeitos": [{"id": "sangramento", "chance": 0.30, "turnos": 3}],
+    "desc": "Corte rápido de ar, sem recarga."
+  },
+  "raizes_prendedoras": {
+    "nome": "Raízes prendedoras", "tipo": "range", "escala": "poder", "coef": 0.04,
+    "dano_base": 10, "custo_mana": 1, "recarga": 2, "elemento": "planta",
+    "efeitos": [{"id": "preso", "chance": 0.55, "turnos": 1}],
+    "desc": "Raízes que podem imobilizar o alvo por um turno."
+  },
+  "sombra_hipnotica": {
+    "nome": "Sombra hipnótica", "tipo": "range", "escala": "poder", "coef": 0.03,
+    "dano_base": 6, "custo_mana": 1, "recarga": 3, "elemento": "hipnose",
+    "efeitos": [{"id": "hipnotizado", "chance": 0.60, "turnos": 1}],
+    "desc": "Quase sem dano, mas pode fazer o alvo perder o turno."
+  },
+  "tri_attack": {
+    "nome": "Tri attack", "tipo": "range", "escala": "poder", "coef": 0.10,
+    "dano_base": 40, "custo_mana": 2, "recarga": 4, "elemento": "fogo",
+    "bonus_ataque": 3, "especial": true,
+    "condicao": {"hp_abaixo_pct": 0.5},
+    "efeitos": [{"id": "queimadura", "chance": 0.60, "turnos": 3}],
+    "desc": "Ataque especial: só com você ou um aliado abaixo de 50% de vida. +3 no roll."
+  },
+  "expansao_de_dominio": {
+    "nome": "Expansão de domínio", "tipo": "range", "escala": "poder", "coef": 0.12,
+    "dano_base": 35, "custo_mana": 3, "recarga": 8, "elemento": "escuridao",
+    "golpes": 2, "ultimate": true,
+    "efeitos": [{"id": "lentidao", "chance": 0.80, "turnos": 3}, {"id": "atordoado", "chance": 0.30, "turnos": 1}],
+    "desc": "Ultimate: o alvo precisa se defender 2 vezes (ataque + domínio)."
+  }
+}
